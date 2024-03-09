@@ -1,12 +1,18 @@
-import { StyleSheet } from "react-native"
+import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
+  main: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#009c8c',
+    textDecorationStyle: 'solid',
+    marginBottom: 20
+  },
   container: {
     flex: 1,
+    paddingTop: 100,
     gap: 20,
     backgroundColor: '#242424',
-    alignItems: 'center',
-    justifyContent: 'center',
     paddingHorizontal: 20
   },
   title: {
@@ -21,8 +27,7 @@ export const styles = StyleSheet.create({
     borderColor: 'gray',
     borderWidth: 1,
     marginBottom: 20,
-    backgroundColor: '#FFFFFF',
-    color: '#000000',
+    backgroundColor: '#FFFFFF'
   },
   input: {
     height: 40,
@@ -32,11 +37,12 @@ export const styles = StyleSheet.create({
     marginBottom: 20,
     backgroundColor: '#FFFFFF',
     paddingHorizontal: 10,
-    color: '#000000',
-    borderRadius: 20
+    color: '#000000'
   },
   resultText: {
     color: '#FFFFFF',
+    fontSize: 30,
+    fontWeight: 'bold',
     marginTop: 20
   }
 })
